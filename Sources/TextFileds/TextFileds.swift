@@ -23,16 +23,15 @@ public class TextFileds: UITextField {
         }
     
     public func createTextFiled() {
-        let textFiled = UITextField()
-        textFiled.borderStyle = .none
-        textFiled.layer.borderColor = UIColor.systemGray.cgColor
-        textFiled.layer.borderWidth = 1
-        textFiled.clearButtonMode = .whileEditing
-        textFiled.backgroundColor = .white
-        textFiled.clipsToBounds = true
-        textFiled.layer.cornerRadius = 12
-        textFiled.leftViewMode = .always
-        textFiled.translatesAutoresizingMaskIntoConstraints = false
+        borderStyle = .none
+        layer.borderColor = UIColor.systemGray.cgColor
+        layer.borderWidth = 1
+        clearButtonMode = .whileEditing
+        backgroundColor = .white
+        clipsToBounds = true
+        layer.cornerRadius = 12
+        leftViewMode = .always
+        translatesAutoresizingMaskIntoConstraints = false
     }
     
     public func setPlaceholder(model: Placeholder) {
