@@ -8,7 +8,7 @@ public class TextFileds: UITextField {
     
     public struct Placeholder {
         public var placeholder: String?
-        init(placeholder: String) {
+        public init(placeholder: String) {
             self.placeholder = placeholder
         }
     }
