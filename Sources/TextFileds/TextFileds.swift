@@ -33,7 +33,6 @@ public class TextFileds: UITextField {
         textFiled.layer.cornerRadius = 12
         textFiled.leftViewMode = .always
         textFiled.translatesAutoresizingMaskIntoConstraints = false
-        return textFiled
     }
     
     public func setPlaceholder(model: Placeholder) {
